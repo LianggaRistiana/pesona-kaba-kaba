@@ -7,7 +7,7 @@ export default function PuraLuhurKungKungPage() {
         <BackgroundVideo
             src="video.mp4"
             opacity={0.5}
-            overlayColor="bg-gradient-to-b from-background via-background/0 to-background"
+            overlayColor="bg-gradient-to-b from-background via-background/20 to-background"
         />
     );
 }

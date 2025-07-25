@@ -1,4 +1,4 @@
-// import { ModeToggle } from "./mode-toggle";
+import { ModeToggle } from "../atoms/mode-toggle";
 
 
 export default function Navbar() {
@@ -7,7 +7,7 @@ export default function Navbar() {
             <p  className="text-xl font-bold text-primary">
                 Pesona Kaba-Kaba
             </p>
-            {/* <ModeToggle></ModeToggle> */}
+            <ModeToggle />
         </nav>
     );
 
