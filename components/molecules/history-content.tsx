@@ -8,14 +8,15 @@ export default function HistoryContent(
     }: Props
 ) {
     return (
-        <div className="min-h-screen w-full text-center items-center">
-            <div className="text-2xl md:text-4xl font-bold">
-                Sejarah
+        <div className="min-h-screen w-full flex text-center items-center">
+            <div>
+                <h1 className="text-2xl md:text-4xl font-bold">
+                    Sejarah
+                </h1>
+                <p className="mt-4 text-justify md:mx-12">
+                    {content}
+                </p>
             </div>
-            <div className="mt-4 text-justify md:mx-12">
-                {content}
-            </div>
-
         </div>
     )
 }
