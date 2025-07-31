@@ -1,5 +1,6 @@
 import BackgroundVideo from "@/components/atoms/background-video";
 import HeroContent from "@/components/molecules/hero-content";
+import HistoryContent from "@/components/molecules/history-content";
 
 
 
@@ -14,6 +15,10 @@ export default function PuraLuhurKungKungPage() {
             <HeroContent
                 title="Pura Luhur Kung-Kung"
                 description="In laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercitation mollit. Laboris labore deserunt ea dolor occaecat labore aute aliquip mollit. "
+            />
+            <HistoryContent
+                content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. n laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercita
+                content Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. n laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercita"
             />
         </div>
     );
