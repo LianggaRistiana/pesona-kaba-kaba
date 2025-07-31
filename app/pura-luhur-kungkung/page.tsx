@@ -1,6 +1,6 @@
 import BackgroundVideo from "@/components/atoms/background-video";
-import HeroContent from "@/components/molecules/hero-content";
-import HistoryContent from "@/components/molecules/history-content";
+import HeroContent from "@/components/organisms/hero-content";
+import HistoryContent from "@/components/organisms/history-content";
 import PelinggihContent from "@/components/organisms/pelinggih-content";
 
 const Pelinggih: Pelinggih[] = [
