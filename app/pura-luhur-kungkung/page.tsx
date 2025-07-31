@@ -1,8 +1,22 @@
 import BackgroundVideo from "@/components/atoms/background-video";
 import HeroContent from "@/components/molecules/hero-content";
 import HistoryContent from "@/components/molecules/history-content";
+import PelinggihContent from "@/components/organisms/pelinggih-content";
 
-
+const Pelinggih: Pelinggih[] = [
+  {
+    name: "Tugu",
+    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+  }
+];
 
 export default function PuraLuhurKungKungPage() {
     return (
@@ -20,6 +34,7 @@ export default function PuraLuhurKungKungPage() {
                 content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. n laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercita
                 content Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. n laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercita"
             />
+            <PelinggihContent listPelinggih={Pelinggih} />
         </div>
     );
 }
