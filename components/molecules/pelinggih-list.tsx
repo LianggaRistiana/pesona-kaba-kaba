@@ -7,7 +7,7 @@ type Props = {
 
 export default function PelinggihList({ listPelinggih }: Props) {
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4">
             {
                 listPelinggih.map((item, index) => (
                     <PelinggihItem key={index} {...item} />

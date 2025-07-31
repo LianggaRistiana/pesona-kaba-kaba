@@ -13,7 +13,7 @@ export default function HistoryContent(
                 <h1 className="text-2xl md:text-4xl font-bold">
                     Sejarah
                 </h1>
-                <p className="mt-4 text-justify md:mx-12">
+                <p className=" md:mt-4 text-justify md:mx-24 whitespace-pre-line">
                     {content}
                 </p>
             </div>
