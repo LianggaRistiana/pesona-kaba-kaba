@@ -1,3 +1,5 @@
+'use client'
+
 import PelinggihList from "../molecules/pelinggih-list";
 
 type Props = {

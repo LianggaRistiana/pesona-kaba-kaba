@@ -1,3 +1,5 @@
+'use client'
+
 import BackgroundVideo from "@/components/atoms/background-video";
 import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
