@@ -6,7 +6,7 @@ export default function PelinggihItem({
     imageSrc
 }: Pelinggih) {
     return (
-        <div className="text-center w-full h-96 relative w-full h-96 overflow-hidden rounded-lg cursor-pointer border-2 hover:border-primary hover:border-primary transition-all duration-300 ease-in-out">
+        <div className="text-center w-full h-76 relative w-full overflow-hidden rounded-lg cursor-pointer border-2 hover:border-primary hover:border-primary transition-all duration-300 ease-in-out">
             <motion.img
                 src={imageSrc}
                 alt={name}

@@ -1,6 +1,7 @@
 'use client'
 
 import BackgroundVideo from "@/components/atoms/background-video";
+import DenahPura from "@/components/organisms/denah-pura";
 import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
 import PelinggihContent from "@/components/organisms/pelinggih-content";
@@ -8,15 +9,51 @@ import PelinggihContent from "@/components/organisms/pelinggih-content";
 const Pelinggih: Pelinggih[] = [
   {
     name: "Tugu",
-    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+    imageSrc: "test.jpg"
   },
   {
     name: "Tugu",
-    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+    imageSrc: "test.jpg"
   },
   {
     name: "Tugu",
-    imageSrc: "https://heroui.com/images/fruit-1.jpeg"
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
+  },
+  {
+    name: "Tugu",
+    imageSrc: "test.jpg"
   }
 ];
 
@@ -32,21 +69,24 @@ Sampai saat ini beji Kung-kung masih tetap disucikan oleh masyarakat Kaba-Kaba d
 `
 
 export default function PuraLuhurKungKungPage() {
-    return (
-        <div>
-            <BackgroundVideo
-                src="video.mp4"
-                opacity={0.5}
-                overlayColor="bg-gradient-to-b from-background via-background/50 to-background/60"
-            />
-            <HeroContent
-                title="Pura Luhur Kung-Kung"
-                description="In laborum minim cupidatat deserunt amet consequat reprehenderit qui. Elit voluptate sit laborum Lorem adipisicing duis ea exercitation mollit. Laboris labore deserunt ea dolor occaecat labore aute aliquip mollit. "
-            />
-            <HistoryContent
-                content={history}
-            />
-            <PelinggihContent listPelinggih={Pelinggih} />
-        </div>
-    );
+  return (
+    <div>
+      <BackgroundVideo
+        src="video.mp4"
+        opacity={0.5}
+        overlayColor="bg-gradient-to-b from-background via-background/50 to-background/60"
+      />
+      <HeroContent
+        title="Pura Luhur Kung-Kung"
+        description="Warisan suci abad XV, Pura Luhur Kungkung menjadi pusat pemujaan dan kemakmuran rakyat Kaba-Kaba.
+Beji Kungkung tetap lestari, memancarkan toya kum-kum yang disucikan hingga kini."
+      />
+      <HistoryContent
+        content={history}
+      />
+
+      <DenahPura />
+      <PelinggihContent listPelinggih={Pelinggih} />
+    </div>
+  );
 }

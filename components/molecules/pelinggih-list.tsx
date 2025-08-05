@@ -13,7 +13,7 @@ export default function PelinggihList({ listPelinggih }: Props) {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div ref={ref} className="grid md:grid-cols-3 gap-4">
+    <div ref={ref} className="grid grid-cols-2 md:grid-cols-5 gap-2">
       {listPelinggih.map((item, index) => (
         <motion.div
           key={index}
