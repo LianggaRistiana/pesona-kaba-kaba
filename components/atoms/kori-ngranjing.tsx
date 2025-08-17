@@ -64,7 +64,7 @@ export default function KoriNgeranjing() {
                     </TooltipTrigger>
                     <DropdownMenuContent className="w-56 h-70 border border-foreground">
                         <div className="w-full h-full flex flex-col items-center justify-center">
-                            <img src='pura-luhur/LK24.jpg' alt='Kori Agung' className="w-full h-full object-cover rounded"/>
+                            <img src='https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK24.JPG' alt='Kori Agung' className="w-full h-full object-cover rounded"/>
                             <p className="font-bold">Kori Agung</p>
                         </div>
                     </DropdownMenuContent>
