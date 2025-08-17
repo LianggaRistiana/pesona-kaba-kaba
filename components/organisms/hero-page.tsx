@@ -37,6 +37,7 @@ export default function HeroPage(){
                 className="absolute inset-0 w-full h-full object-cover z-10"
                 whileHover={{ scale: 1.2, opacity: 0.4 }}
                 whileTap={{ scale: 1 }}
+                onClick={() =>router.push('/pura-ujan-angin')}
               />
               <Badge className="absolute bottom-2 right-2 z-20">
                 <span className="font-bold text-md">Pura Ujan Angin</span>
