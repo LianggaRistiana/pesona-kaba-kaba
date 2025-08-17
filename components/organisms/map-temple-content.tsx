@@ -2,17 +2,22 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Map from "../molecules/map";
 
 type Props = {
-    content: string;
+    mapItems: MapItem[];
+    children?: React.ReactNode;
 };
 
-export default function HistoryContent({ content }: Props) {
+export default function MapTempleContent({
+    mapItems,
+    children
+}: Props) {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: false });
 
     return (
-        <div className="min-h-screen w-full flex text-center items-center">
+        <div className="relative min-h-screen w-full flex text-center items-center">
             <div ref={ref} className="w-full">
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
@@ -20,18 +25,18 @@ export default function HistoryContent({ content }: Props) {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-2xl md:text-4xl font-bold"
                 >
-                    Sejarah
+                    Denah
                 </motion.h1>
 
-                <motion.p
+                <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.4 }}
-                    className="md:mt-4 text-justify md:mx-24 whitespace-pre-line"
+                    className="md:mt-4  md:mx-24 "
                 >
-                    {content}
-                </motion.p>
+                    <Map mapItems={mapItems}>{children}</Map>
+                </motion.div>
             </div>
         </div>
-    );
+    )
 }

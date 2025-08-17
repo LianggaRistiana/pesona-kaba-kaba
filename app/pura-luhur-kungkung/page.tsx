@@ -1,61 +1,40 @@
 'use client'
 
 import BackgroundVideo from "@/components/atoms/background-video";
-import DenahPura from "@/components/organisms/denah-pura";
+import CandiBentar from "@/components/atoms/candi-bentar";
+import KoriMedal from "@/components/atoms/kori-medal";
+import KoriNgeranjing from "@/components/atoms/kori-ngranjing";
 import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
+import MapTempleContent from "@/components/organisms/map-temple-content";
 import PelinggihContent from "@/components/organisms/pelinggih-content";
 
-const Pelinggih: Pelinggih[] = [
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  },
-  {
-    name: "Tugu",
-    imageSrc: "test.jpg"
-  }
-];
+const mapItems: MapItem[] = [
+  { id: 1, x: 68, y: 78, w: 9, h: 13, desc: "Ratu Mas Manik Galih", imgSrc: "pura-luhur/LK01.jpg" },
+  { id: 2, x: 84, y: 54, w: 8, h: 14, desc: "Ratu Gede Jaksa", imgSrc: "pura-luhur/LK02.jpg" },
+  { id: 3, x: 86, y: 30, w: 12, h: 12, desc: "Ratu Dwayu", imgSrc: "pura-luhur/LK03.jpg" },
+  { id: 4, x: 82, y: 80, w: 4, h: 15, desc: "Ratu Made", imgSrc: "pura-luhur/LK04.jpg" },
+  { id: 5, x: 89, y: 18, w: 5, h: 8, desc: "Rambut Sedana", imgSrc: "pura-luhur/LK05.jpg" },
+  { id: 6, x: 76, y: 39, w: 3, h: 5, desc: "Dewa Gusti Nyoman Lingsir", imgSrc: "pura-luhur/LK06.jpg" },
+  { id: 7, x: 75, y: 80, w: 3, h: 5, desc: "Pelinggih Pariwara", imgSrc: "pura-luhur/LK07.jpg" },
+  { id: 8, x: 60.5, y: 81, w: 3, h: 6, desc: "Pelinggih Pariwara", imgSrc: "pura-luhur/LK08.jpg" },
+  { id: 9, x: 71, y: 68, w: 3, h: 5, desc: "Catu Mujung", imgSrc: "pura-luhur/LK09.jpg" },
+  { id: 10, x: 65, y: 68, w: 3, h: 5, desc: "Catu Meres", imgSrc: "pura-luhur/LK10.jpg" },
+  { id: 11, x: 86, y: 42, w: 3, h: 5, desc: "Taksu", imgSrc: "pura-luhur/LK11.jpg" },
+  { id: 12, x: 72, y: 53, w: 3, h: 5, desc: "Pedudusan nerang", imgSrc: "pura-luhur/LK12.jpg" },
+  { id: 13, x: 52, y: 88, w: 3, h: 5, desc: "Ratu Gede Sakti", imgSrc: "pura-luhur/LK13.jpg" },
+  { id: 14, x: 56, y: 70, w: 4, h: 12, desc: "Pengaruman", imgSrc: "pura-luhur/LK14.jpg" },
+  { id: 15, x: 70, y: 18, w: 12, h: 25, desc: "Pesamyangan", imgSrc: "pura-luhur/LK15.jpg" },
+  { id: 16, x: 56, y: 9, w: 9, h: 15, desc: "Bale Kidung", imgSrc: "pura-luhur/LK16.jpg" },
+  { id: 17, x: 77, y: 74, w: 3, h: 5, desc: "Ratu Nyoman Tukang", imgSrc: "pura-luhur/LK17.jpg" },
+  { id: 18, x: 44, y: 59, w: 6, h: 6, desc: "Pesimpangan Batu Ngaus", imgSrc: "pura-luhur/LK18.jpg" },
+  { id: 19, x: 16, y: 40, w: 8, h: 12, desc: "Pengubengan", imgSrc: "pura-luhur/LK19.jpg" },
+  { id: 20, x: 5, y: 85, w: 10, h: 14, desc: "Gendongan", imgSrc: "pura-luhur/LK20.jpg" },
+  { id: 21, x: 18, y: 80, w: 12, h: 18, desc: "Bale Onen", imgSrc: "pura-luhur/LK21.jpg" },
+  { id: 22, x: 33, y: 79, w: 16, h: 20, desc: "Pemayasan", imgSrc: "pura-luhur/LK22.jpg" },
+  { id: 23, x: 20, y: 14, w: 38, h: 24, desc: "Pesanekan", imgSrc: "pura-luhur/LK23.jpg" },
+]
+
 
 const history = `
 Sebagaimana dikemukakan pada uraian situs kuno berupa pura, bahwa pura Luhur Kungkung yang didirikan pada abad ke XV oleh raja ke IV yang bernama Anak Agung Ngurah Made Putra Teges (1412-1500). Pura Luhur Kungkungdidirikan sebagai tempat memuja Tuhan dalam kekuatan Stiti, melalui prebawaNya sebagai Ratu Mas Manik Galih, merupakan pura yang berkaitan dengan kemakmuran masyarakat khususnya dibidang pangan. Juga didirikan pelinggih Ratu Gede Jaksa sebagai tempat memohon ketertiban baik dibidang pri kehidupan sosial maupun dibidang hukum.
@@ -72,8 +51,8 @@ export default function PuraLuhurKungKungPage() {
   return (
     <div>
       <BackgroundVideo
-        src="video.mp4"
-        opacity={0.5}
+        src="pura-luhur.mp4"
+        opacity={0.8}
         overlayColor="bg-gradient-to-b from-background via-background/50 to-background/60"
       />
       <HeroContent
@@ -85,8 +64,12 @@ Beji Kungkung tetap lestari, memancarkan toya kum-kum yang disucikan hingga kini
         content={history}
       />
 
-      <DenahPura />
-      <PelinggihContent listPelinggih={Pelinggih} />
+      <MapTempleContent mapItems={mapItems}>
+        <KoriNgeranjing />
+        <KoriMedal />
+        <CandiBentar />
+      </MapTempleContent>
+      <PelinggihContent listPelinggih={mapItems} />
     </div>
   );
 }
