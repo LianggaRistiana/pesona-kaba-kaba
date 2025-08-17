@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/molecules/navbar";
 import { ThemeProvider } from "@/components/provider/theme-provider";
 import AboutUs from "@/components/atoms/about-us";
+import ScrollUpButton from "@/components/atoms/scroll-up-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +42,7 @@ export default function RootLayout({
             {children}
           </div>
           <AboutUs />
+          <ScrollUpButton />
         </ThemeProvider>
       </body>
     </html>

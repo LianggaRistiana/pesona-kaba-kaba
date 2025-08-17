@@ -41,7 +41,6 @@ export default function HeroContent(
                     </div> */}
                 </div>
                 <div></div>
-
             </div>
         </div>
 
