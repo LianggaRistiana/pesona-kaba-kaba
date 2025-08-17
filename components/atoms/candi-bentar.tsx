@@ -6,6 +6,11 @@ import {
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export default function CandiBentar() {
     return (
@@ -39,7 +44,7 @@ export default function CandiBentar() {
                     transform: 'translate(-50%, -50%)',
                 }}
                 className="absolute" >
-                <Tooltip>
+                {/* <Tooltip>
                     <TooltipTrigger asChild>
                         <div className="w-full h-full bg-foreground border border-foreground text-xs font-bold flex items-center justify-center hover:text-background hover:animate-pulse hover:bg-foreground cursor-pointer rounded">
                         </div>
@@ -47,7 +52,27 @@ export default function CandiBentar() {
                     <TooltipContent>
                         <p>Candi Bentar</p>
                     </TooltipContent>
-                </Tooltip>
+                </Tooltip> */}
+
+                <Tooltip>
+                <DropdownMenu>
+                    <TooltipTrigger asChild>
+                        <DropdownMenuTrigger asChild>
+                        <div className="w-full h-full bg-foreground border border-foreground text-xs font-bold flex items-center justify-center hover:text-background hover:animate-pulse hover:bg-foreground cursor-pointer rounded">
+                        </div>
+                        </DropdownMenuTrigger>
+                    </TooltipTrigger>
+                    <DropdownMenuContent className="w-56 h-70 border border-foreground">
+                        <div className="w-full h-full flex flex-col items-center justify-center">
+                            <img src='https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK25.jpg' alt='Candi Bentar' className="w-full h-full object-cover rounded"/>
+                            <p className="font-bold">Candi Bentar</p>
+                        </div>
+                    </DropdownMenuContent>
+                    <TooltipContent>
+                        <p>Candi Bentar</p>
+                    </TooltipContent>
+                </DropdownMenu>
+            </Tooltip>
             </div>
         </>
     )
