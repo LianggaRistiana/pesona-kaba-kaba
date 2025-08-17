@@ -1,6 +1,7 @@
 'use client'
 
 import BackgroundVideo from "@/components/atoms/background-video";
+import YouTubeEmbed from "@/components/molecules/youtube-embed";
 import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
 
@@ -28,6 +29,8 @@ export default function PuraUjanAnginPage() {
             <HistoryContent
                 content={history}
             />
+
+            <YouTubeEmbed id="dQw4w9WgXcQ"  className="mb-16"/>
         </div>
     )
 }

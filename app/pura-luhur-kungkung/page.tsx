@@ -5,6 +5,7 @@ import CandiBentar from "@/components/atoms/candi-bentar";
 import KoriMedal from "@/components/atoms/kori-medal";
 import KoriNgeranjing from "@/components/atoms/kori-ngranjing";
 import YouTubeBackground from "@/components/atoms/youtube-background";
+import YouTubeEmbed from "@/components/molecules/youtube-embed";
 import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
 import MapTempleContent from "@/components/organisms/map-temple-content";
@@ -71,7 +72,10 @@ Beji Kungkung tetap lestari, memancarkan toya kum-kum yang disucikan hingga kini
         <KoriMedal />
         <CandiBentar />
       </MapTempleContent>
+
       <PelinggihContent listPelinggih={mapItems} />
+
+      <YouTubeEmbed id="dQw4w9WgXcQ"  className="mb-16"/>
     </div>
   );
 }
