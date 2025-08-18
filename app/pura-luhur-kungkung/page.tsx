@@ -75,7 +75,7 @@ Beji Kungkung tetap lestari, memancarkan toya kum-kum yang disucikan hingga kini
 
       <PelinggihContent listPelinggih={mapItems} />
 
-      <YouTubeEmbed id="dQw4w9WgXcQ"  className="mb-16"/>
+      <YouTubeEmbed id="5bKNcr9ylDw"  className="mt-4 mb-8"/>
     </div>
   );
 }

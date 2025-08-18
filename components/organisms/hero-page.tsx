@@ -17,7 +17,7 @@ export default function HeroPage(){
             {/* Card 1 */}
             <div className="relative text-center w-full h-80 overflow-hidden rounded-lg cursor-pointer border-2 transition-all duration-300 ease-in-out hover:border-primary">
               <motion.img
-                src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK01.JPG"
+                src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK02.JPG"
                 alt="Pura Luhur Kung-Kung"
                 className="absolute inset-0 w-full h-full object-cover z-10"
                 whileHover={{ scale: 1.2, opacity: 0.4 }}
@@ -32,7 +32,7 @@ export default function HeroPage(){
             {/* Card 2 */}
             <div className="relative text-center w-full h-80 overflow-hidden rounded-lg cursor-pointer border-2 transition-all duration-300 ease-in-out hover:border-primary">
               <motion.img
-                src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK08.JPG"
+                src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/UA01.jpg"
                 alt="Pura Ujan Angin"
                 className="absolute inset-0 w-full h-full object-cover z-10"
                 whileHover={{ scale: 1.2, opacity: 0.4 }}

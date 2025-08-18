@@ -1,4 +1,4 @@
-import { Instagram, Link } from "lucide-react";
+import { Instagram, Link, Youtube } from "lucide-react";
 
 export default function AboutUs() {
     return (
@@ -8,7 +8,7 @@ export default function AboutUs() {
                 <div className="text-center lg:text-left">
                     <p className="text-xl font-bold">Pesona Kaba-Kaba</p>
                     <p className="text-sm text-muted-foreground">
-                        Website yang ditujukan untuk menampilkan peninggalan sejarah Kaba-Kaba
+                        Jelajahi Peninggalan Sejarah di desa Kaba-Kaba, Kediri, Tabanan, Bali
                     </p>
                 </div>
 
@@ -30,6 +30,12 @@ export default function AboutUs() {
                         <Instagram className="w-4 h-4"></Instagram>
                         <a href="https://www.instagram.com/kknkabakaba2025/" className="text-sm font-medium text-primary ">
                             kknkabakaba2025
+                        </a>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                        <Youtube className="w-4 h-4"></Youtube>
+                        <a href="https://www.youtube.com/@KKNDesaKabaKaba2025" className="text-sm font-medium text-primary ">
+                            KKN UNUD Desa Kaba-Kaba 2025
                         </a>
                     </div>
                 </div>

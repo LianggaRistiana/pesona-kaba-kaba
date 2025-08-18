@@ -30,7 +30,7 @@ export default function PuraUjanAnginPage() {
                 content={history}
             />
 
-            <YouTubeEmbed id="dQw4w9WgXcQ"  className="mb-16"/>
+            <YouTubeEmbed id="EptzgqxOXRA"  className="mb-8"/>
         </div>
     )
 }
