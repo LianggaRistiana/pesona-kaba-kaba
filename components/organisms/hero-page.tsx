@@ -18,14 +18,14 @@ export default function HeroPage(){
             <div className="relative text-center w-full h-80 overflow-hidden rounded-lg cursor-pointer border-2 transition-all duration-300 ease-in-out hover:border-primary">
               <motion.img
                 src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/LK02.JPG"
-                alt="Pura Luhur Kung-Kung"
+                alt="Pura Luhur Kungkung"
                 className="absolute inset-0 w-full h-full object-cover z-10"
                 whileHover={{ scale: 1.2, opacity: 0.4 }}
                 whileTap={{ scale: 1 }}
                 onClick={() =>router.push('/pura-luhur-kungkung')}
               />
               <Badge className="absolute bottom-2 right-2 z-20">
-                <span className="font-bold text-md">Pura Luhur Kung-Kung</span>
+                <span className="font-bold text-md">Pura Luhur Kungkung</span>
               </Badge>
             </div>
 

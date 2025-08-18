@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pesona Kaba Kaba",
+  title: "Pesona Kaba-Kaba",
   description: "Created by KKN Kaba Kaba",
 };
 

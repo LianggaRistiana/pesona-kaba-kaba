@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <BackgroundVideo
-        src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/video/LK-video.mp4"
+        src="https://wfousyjmdqqsccieqmyg.supabase.co/storage/v1/object/public/web-storage/video/KK-video.mp4"
         opacity={0.8}
         overlayColor="bg-gradient-to-b from-background via-background/50 to-background/60"
       />

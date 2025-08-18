@@ -39,15 +39,13 @@ const mapItems: MapItem[] = [
 
 
 const history = `
-Sebagaimana dikemukakan pada uraian situs kuno berupa pura, bahwa pura Luhur Kungkung yang didirikan pada abad ke XV oleh raja ke IV yang bernama Anak Agung Ngurah Made Putra Teges (1412-1500). Pura Luhur Kungkungdidirikan sebagai tempat memuja Tuhan dalam kekuatan Stiti, melalui prebawaNya sebagai Ratu Mas Manik Galih, merupakan pura yang berkaitan dengan kemakmuran masyarakat khususnya dibidang pangan. Juga didirikan pelinggih Ratu Gede Jaksa sebagai tempat memohon ketertiban baik dibidang pri kehidupan sosial maupun dibidang hukum.
+Sebagaimana dikemukakan pada uraian situs kuno berupa pura, Pura Luhur Kungkung didirikan pada abad ke-15 oleh raja keempat yang bernama Anak Agung Ngurah Made Putra Teges (1412–1500). Pura Luhur Kungkung didirikan sebagai tempat pemujaan Tuhan dalam kekuatan Stiti, melalui prebawa-Nya sebagai Ratu Mas Manik Galih. Pura ini berkaitan dengan kemakmuran masyarakat, khususnya di bidang pangan. Selain itu, juga didirikan pelinggih Ratu Gede Jaksa sebagai tempat memohon ketertiban, baik dalam kehidupan sosial maupun bidang hukum.
 
-Semenjak Tahun Masehi 1600 Raja ke VII yang bernama Arya Anglurah Kaba Kaba Yudha Teges, menyerahkan kepercayaan kepada Ki Gusti Gede
-Bokah beserta ki Pasek yang bertempat di Dauh Yeh untuk ngamong Pura Luhur Kungkung. Sampai sat ini diamong oleh pretisentanan Ki Gusti Gede Bokah bersama semua warga banjar Dauh Yeh, dan disungsung oleh masyarakat Kaba-Kaba dan kerama subak.
+Sejak tahun 1600 Masehi, raja ketujuh yang bernama Arya Anglurah Kaba-Kaba Yudha Teges menyerahkan kepercayaan kepada Ki Gusti Gede Bokah beserta Ki Pasek yang bertempat di Dauh Yeh untuk ngamong Pura Luhur Kungkung. Sampai saat ini, pura tersebut masih diamong oleh pretisentanan Ki Gusti Gede Bokah bersama seluruh warga Banjar Dauh Yeh, serta disungsung oleh masyarakat Kaba-Kaba dan para krama subak.
 
-Nama Kungkung sangat berkaitan dengan adanya beji dengan toya kum-kum (air suci yang semerbak) yang berlokasi di Nista Mandala Pura Kungkung. Pada area beji terdapat 3 lokasi pancoran, yaitu Pancoran Beji (No 1) adalah berfungsi sebagai beji Dewa Yadnya, Pancoran Beji (No.2) adalah berfungsi sebagai beji Dewa Pitara Yadnya, dan pancoran No 3 adalah pancoran untuk pemandian umum.
+Nama Kungkung sangat berkaitan dengan adanya beji dengan toya kum-kum (air suci yang semerbak) yang berlokasi di Nista Mandala Pura Kungkung. Pada area beji terdapat tiga pancoran. Pancoran Beji 1 berfungsi sebagai beji Dewa Yadnya, Pancoran Beji 2 digunakan untuk beji Pitra Yadnya, sedangkan Pancoran Beji 3 berfungsi sebagai pancoran untuk pemandian umum.
 
-Sampai saat ini beji Kung-kung masih tetap disucikan oleh masyarakat Kaba-Kaba dan masih berfungsi sebagai uraian diatas sesuai lokasi pancoran, baik untuk beji Dewa Yadnya, Dewa Pitara, dan pemandian umum juga berfungsi sebagai pemandian untuk Banyu Pinaruh.
-`
+Sampai saat ini, Beji Kungkung masih tetap disucikan oleh masyarakat Kaba-Kaba dan berfungsi sesuai dengan uraian di atas, baik sebagai beji Dewa Yadnya, Pitra Yadnya, pemandian umum, maupun pemandian untuk Banyu Pinaruh.`
 
 export default function PuraLuhurKungKungPage() {
   return (
@@ -59,7 +57,7 @@ export default function PuraLuhurKungKungPage() {
       />
       {/* <YouTubeBackground videoId="01dn67QubYQ"></YouTubeBackground> */}
       <HeroContent
-        title="Pura Luhur Kung-Kung"
+        title="Pura Luhur Kungkung"
         description="Warisan suci abad XV, Pura Luhur Kungkung menjadi pusat pemujaan dan kemakmuran rakyat Kaba-Kaba.
 Beji Kungkung tetap lestari, memancarkan toya kum-kum yang disucikan hingga kini."
       />

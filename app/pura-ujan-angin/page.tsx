@@ -6,12 +6,11 @@ import HeroContent from "@/components/organisms/hero-content";
 import HistoryContent from "@/components/organisms/history-content";
 
 const history = `
-Desa kaba-Kaba yang dibangun oleh Sira Arya Blog pada Tahun 1334, dengan wilayah kekuasaan batas Selatan adalah Jimbaran, batas Barat adalah Desa Pengeragoan, Utara perbatasan Selatan wilayah Tabanan, dan Timur Sungai Busak. Kerajaan Kaba-Kaba merupakan kerajaan di bawah pimpinan Dalem yang berstana di Kelungkung, dengan koordinasi yang sangat solid dengan para Arya yang menempati wilayah kerajaan di seluruh Bali.
+Desa Kaba-Kaba yang dibangun oleh Sira Arya Blog pada tahun 1334, dengan wilayah kekuasaan: batas Selatan adalah Jimbaran, batas Barat adalah Desa Pengeragoan, Utara berbatasan dengan wilayah Selatan Tabanan, dan Timur Sungai Busak. Kerajaan Kaba-Kaba merupakan kerajaan di bawah pimpinan Dalem yang berstana di Klungkung, dengan koordinasi yang sangat solid bersama para Arya yang menempati wilayah kerajaan di seluruh Bali.
 
-Arya Blog digantikan oleh putra beliau yang bernama Sira Arya Anglurah Kabakaba sebagai raja ke dua yang memimpin kerajaan kaba-Kaba, beliau sangat besar perhatiannya pada kemakmuran dengan membuat lahan pertanian, dengan menata tanah dan mengelola perairan, sehingga dalam pemerintahan raja ke dua tersebut, rakyat Kaba-Kaba menjadi makmur, dan beliau medirikan pura-pura yang berkaitan dengan pertanian
+Sira Arya Blog digantikan oleh putra beliau yang bernama Sira Arya Anglurah Kaba-Kaba sebagai raja kedua yang memimpin Kerajaan Kaba-Kaba. Beliau sangat besar perhatiannya pada kemakmuran dengan membuka lahan pertanian, menata tanah, dan mengelola perairan. Pada masa pemerintahan raja kedua tersebut, rakyat Kaba-Kaba menjadi makmur, dan beliau mendirikan pura-pura yang berkaitan dengan pertanian.
 
-Sira Arya Anglurah Kabakaba, digantikan oleh putra beliau yang bernama) Sira Arya Anglurah Kabakaba Teges pada abad ke XIV yaitu tahun 1386, sebagai raja ke 3 kerajaan Kaba-Kaba. Beliau mempunyai perhatian yang besar terhadap kehidupan beragama, sehingga beliau mendirikan pura-pura yang berkaitan dengan pemujaan terhadap bumi, dan pemujaan terhadap para pemdiri agama. Pada saat itulah didirikan Pura Ujan Angin, yaitu pura Dang Kayangan yang berisi pelinggih Pesimpangan Merajan Kapal, Pesimpangan Pura Batu Ngaus, Pesimpangan Luhur Kungkung, Pesimpangan Luhur Gunung (Rong Tiga), Padma (Ratu Gede Ujan Angin), Pesimpangan Pura Dalem Sakenan, Pesimpangan Pura Dalem Buwit
-`
+Sira Arya Anglurah Kaba-Kaba kemudian digantikan oleh putranya yang bernama Sira Arya Anglurah Kaba-Kaba Teges pada abad ke-14, yaitu tahun 1386, sebagai raja ketiga Kerajaan Kaba-Kaba. Beliau memiliki perhatian yang besar terhadap kehidupan beragama, sehingga mendirikan pura-pura yang berkaitan dengan pemujaan terhadap bumi dan pemujaan terhadap para pendiri agama. Pada masa itulah didirikan Pura Ujan Angin, yaitu pura Dang Kayangan yang berisi pelinggih Pesimpangan Merajan Kapal, Pesimpangan Pura Batu Ngaus, Pesimpangan Luhur Kungkung, Pesimpangan Luhur Gunung (Rong Tiga), Padma (Ratu Gede Ujan Angin), Pesimpangan Pura Dalem Sakenan, dan Pesimpangan Pura Dalem Buwit.`
 
 export default function PuraUjanAnginPage() {
     return (
@@ -30,7 +29,7 @@ export default function PuraUjanAnginPage() {
                 content={history}
             />
 
-            <YouTubeEmbed id="EptzgqxOXRA"  className="mb-8"/>
+            <YouTubeEmbed id="EptzgqxOXRA"  className="mt-4 mb-8"/>
         </div>
     )
 }

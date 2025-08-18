@@ -3,7 +3,7 @@ import { Instagram, Link, Youtube } from "lucide-react";
 export default function AboutUs() {
     return (
         <div className="w-full py-8 bg-foreground/10 backdrop-blur-xl px-8 lg:px-16">
-            <div className="w-full flex flex-col lg:flex-row gap-4 items-center justify-between ">
+            <div className="w-full flex flex-col lg:flex-row gap-4 items-start justify-between ">
                 {/* Bagian teks */}
                 <div className="text-center lg:text-left">
                     <p className="text-xl font-bold">Pesona Kaba-Kaba</p>
